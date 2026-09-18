@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Rounded card base -->
+    <path
+        android:pathData="M34,30 h40 a12,12 0 0 1 12,12 v24 a12,12 0 0 1 -12,12 h-40 a12,12 0 0 1 -12,-12 v-24 a12,12 0 0 1 12,-12 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="28"
+                android:endX="84"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#9333EA" />
+                <item android:offset="0.5" android:color="#7C3AED" />
+                <item android:offset="1.0" android:color="#4C1D95" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Card shine border -->
+    <path
+        android:pathData="M34,30 h40 a12,12 0 0 1 12,12 v24 a12,12 0 0 1 -12,12 h-40 a12,12 0 0 1 -12,-12 v-24 a12,12 0 0 1 12,-12 z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#55FFFFFF"
+        android:fillColor="#00000000" />
+    <!-- Styled ₹ Rupee Symbol in Center -->
+    <!-- Top horizontal bar -->
+    <path
+        android:pathData="M44,42 h20"
+        android:strokeWidth="3.2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <!-- Second horizontal bar -->
+    <path
+        android:pathData="M44,47 h18"
+        android:strokeWidth="3.2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <!-- Curved R body and diagonal leg -->
+    <path
+        android:pathData="M49,42 v12 c4.5,0 8,-1.5 8,-6 s-3.5,-6 -8,-6 M53,52 l9,15"
+        android:strokeWidth="3.2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+</vector>
